@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FABC62461CD1C068004513CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC62451CD1C068004513CC /* main.m */; };
+		FABC62491CD1C068004513CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC62481CD1C068004513CC /* AppDelegate.m */; };
+		FABC624C1CD1C068004513CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC624B1CD1C068004513CC /* ViewController.m */; };
+		FABC62511CD1C068004513CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABC62501CD1C068004513CC /* Assets.xcassets */; };
+		FABC62541CD1C068004513CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC62521CD1C068004513CC /* LaunchScreen.storyboard */; };
+		FABC62631CD1C0A8004513CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABC62621CD1C0A8004513CC /* Main.storyboard */; };
+		FABC62721CD1C2F5004513CC /* JPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC626F1CD1C2F5004513CC /* JPlaceHolderTextView.m */; };
+		FABC62731CD1C2F5004513CC /* UIView+JExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC62711CD1C2F5004513CC /* UIView+JExtension.m */; };
+		FABC62761CD1C307004513CC /* TestDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC62751CD1C307004513CC /* TestDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FABC62411CD1C067004513CC /* JPlaceHolderTextVieDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPlaceHolderTextVieDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABC62451CD1C068004513CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FABC62471CD1C068004513CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FABC62481CD1C068004513CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FABC624A1CD1C068004513CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FABC624B1CD1C068004513CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FABC62501CD1C068004513CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABC62531CD1C068004513CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FABC62551CD1C068004513CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABC62621CD1C0A8004513CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FABC626E1CD1C2F5004513CC /* JPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPlaceHolderTextView.h; sourceTree = "<group>"; };
+		FABC626F1CD1C2F5004513CC /* JPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPlaceHolderTextView.m; sourceTree = "<group>"; };
+		FABC62701CD1C2F5004513CC /* UIView+JExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JExtension.h"; sourceTree = "<group>"; };
+		FABC62711CD1C2F5004513CC /* UIView+JExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JExtension.m"; sourceTree = "<group>"; };
+		FABC62741CD1C307004513CC /* TestDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDemoViewController.h; sourceTree = "<group>"; };
+		FABC62751CD1C307004513CC /* TestDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABC623E1CD1C067004513CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABC62381CD1C067004513CC = {
+			isa = PBXGroup;
+			children = (
+				FABC62431CD1C068004513CC /* JPlaceHolderTextVieDemo */,
+				FABC62421CD1C067004513CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABC62421CD1C067004513CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABC62411CD1C067004513CC /* JPlaceHolderTextVieDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABC62431CD1C068004513CC /* JPlaceHolderTextVieDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FABC62741CD1C307004513CC /* TestDemoViewController.h */,
+				FABC62751CD1C307004513CC /* TestDemoViewController.m */,
+				FABC626D1CD1C2F5004513CC /* JPlaceHolderTextView */,
+				FABC62471CD1C068004513CC /* AppDelegate.h */,
+				FABC62481CD1C068004513CC /* AppDelegate.m */,
+				FABC624A1CD1C068004513CC /* ViewController.h */,
+				FABC62621CD1C0A8004513CC /* Main.storyboard */,
+				FABC624B1CD1C068004513CC /* ViewController.m */,
+				FABC62501CD1C068004513CC /* Assets.xcassets */,
+				FABC62521CD1C068004513CC /* LaunchScreen.storyboard */,
+				FABC62551CD1C068004513CC /* Info.plist */,
+				FABC62441CD1C068004513CC /* Supporting Files */,
+			);
+			path = JPlaceHolderTextVieDemo;
+			sourceTree = "<group>";
+		};
+		FABC62441CD1C068004513CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABC62451CD1C068004513CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FABC626D1CD1C2F5004513CC /* JPlaceHolderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				FABC626E1CD1C2F5004513CC /* JPlaceHolderTextView.h */,
+				FABC626F1CD1C2F5004513CC /* JPlaceHolderTextView.m */,
+				FABC62701CD1C2F5004513CC /* UIView+JExtension.h */,
+				FABC62711CD1C2F5004513CC /* UIView+JExtension.m */,
+			);
+			name = JPlaceHolderTextView;
+			path = ../../JPlaceHolderTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABC62401CD1C067004513CC /* JPlaceHolderTextVieDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABC62581CD1C068004513CC /* Build configuration list for PBXNativeTarget "JPlaceHolderTextVieDemo" */;
+			buildPhases = (
+				FABC623D1CD1C067004513CC /* Sources */,
+				FABC623E1CD1C067004513CC /* Frameworks */,
+				FABC623F1CD1C067004513CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPlaceHolderTextVieDemo;
+			productName = JPlaceHolderTextVieDemo;
+			productReference = FABC62411CD1C067004513CC /* JPlaceHolderTextVieDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABC62391CD1C067004513CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = likejin;
+				TargetAttributes = {
+					FABC62401CD1C067004513CC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FABC623C1CD1C067004513CC /* Build configuration list for PBXProject "JPlaceHolderTextVieDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABC62381CD1C067004513CC;
+			productRefGroup = FABC62421CD1C067004513CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABC62401CD1C067004513CC /* JPlaceHolderTextVieDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABC623F1CD1C067004513CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABC62541CD1C068004513CC /* LaunchScreen.storyboard in Resources */,
+				FABC62511CD1C068004513CC /* Assets.xcassets in Resources */,
+				FABC62631CD1C0A8004513CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABC623D1CD1C067004513CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABC624C1CD1C068004513CC /* ViewController.m in Sources */,
+				FABC62491CD1C068004513CC /* AppDelegate.m in Sources */,
+				FABC62721CD1C2F5004513CC /* JPlaceHolderTextView.m in Sources */,
+				FABC62461CD1C068004513CC /* main.m in Sources */,
+				FABC62731CD1C2F5004513CC /* UIView+JExtension.m in Sources */,
+				FABC62761CD1C307004513CC /* TestDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FABC62521CD1C068004513CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABC62531CD1C068004513CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABC62561CD1C068004513CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FABC62571CD1C068004513CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABC62591CD1C068004513CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPlaceHolderTextVieDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.likejin.cn.JPlaceHolderTextVieDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FABC625A1CD1C068004513CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPlaceHolderTextVieDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.likejin.cn.JPlaceHolderTextVieDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABC623C1CD1C067004513CC /* Build configuration list for PBXProject "JPlaceHolderTextVieDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABC62561CD1C068004513CC /* Debug */,
+				FABC62571CD1C068004513CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABC62581CD1C068004513CC /* Build configuration list for PBXNativeTarget "JPlaceHolderTextVieDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABC62591CD1C068004513CC /* Debug */,
+				FABC625A1CD1C068004513CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABC62391CD1C067004513CC /* Project object */;
+}
